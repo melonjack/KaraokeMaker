@@ -1,0 +1,18 @@
+@import 'header';
+@import 'linkinput.scss';
+@import 'video.scss';
+@import 'playlist.scss';
+
+html {
+    overflow: scroll;
+    padding-bottom: -5px;
+  }
+  ::-webkit-scrollbar {
+      display: none;
+  }
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+

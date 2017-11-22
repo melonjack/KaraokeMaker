@@ -1,0 +1,32 @@
+// Sass configuration
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Sass Compile",
+            "type": "shell",
+            "command": "node-sass scss/styles.scss css/styles.css",
+            "group": "build"
+        },
+        {
+            "taskName": "Sass Compile Watch",
+            "type": "shell",
+            "command": "sass --watch scss/styles.scss:css/styles.css",
+            "group": "build"
+        },
+        {
+            "label": "WebPack Compiler",
+            "type": "shell",
+            "command": "npm run build",
+            "group": "build"
+        },
+        {
+            "label": "WebPack Compiler Watch",
+            "type": "shell",
+            "command": "npm run build --watch",
+            "group": "build"
+        }
+    ]
+}

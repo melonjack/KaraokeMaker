@@ -1,0 +1,41 @@
+.header {
+    background-image: url("../vendor/header_1920x1080.jpg");
+    background-size: cover;
+    background-position: 50% 16%;
+}
+
+.header_center_box {
+    padding-top: 25rem;
+    padding-right: 0px;
+    padding-bottom: 30rem;
+    padding-left: 0px;
+    text-align: center;
+    h1{
+        margin-bottom: 5px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 110%;
+    }
+}
+.header_nav{
+    float: right;
+    ul{
+        padding-top: 25px;
+        li {
+            list-style-type: none;
+            display: inline;
+            margin-left: 30px;
+            font-size: 110%;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: rgb(165, 158, 158);
+                cursor: pointer;
+            }
+        }
+    }
+
+}

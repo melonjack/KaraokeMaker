@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YT-Karaoke</title>
+    <link rel="stylesheet" href="../css/skeleton/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="playlist_area" id="playlist_area">
+        <div class="playlist_button" id="playlist_button">
+            <i id="playlist_button_arrows" class="fa fa-angle-double-left" aria-hidden="true"></i>
+        </div>
+        <div class="playlist_area_window" id="playlist_area_window">
+            <table class="playlist_table">
+                <thead class="playlist_window_head_area">
+                    <th class="playlist_window_header">Deine Playlist</th>
+                </thead>
+                <tbody class="playlist_window_list">
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                    <tr><td>1</td></tr>
+                    <tr><td>2</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="header_nav">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a href="#input_field">Start</a>
+                        </li>
+                        <li>
+                            <a id="nav_playlist_button">Party</a>
+                        </li>
+                        <li>
+                            <a href="#input_field">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#input_field">Info</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="header_center_box">
+                <h1 class="header_text">
+                    YouTube Karoake
+                </h1>
+                <p>
+                    Make your own karaoke party
+                </p>
+                <a class="button" href="#input_field" id="start_buton">Try It Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="input_area">
+        <div class="container">
+            <h2 class="input_header">Karaoke Generator</h2>
+            <div class="input_field">
+                <label for="link_input_field">
+                    <a id="input_field">Put the link down below</a>
+                </label>
+                <input class="u-full-width" type="url" placeholder="youtube.com" id="link_input_field">
+            </div>
+        </div>
+    </div>
+
+    <div class="video_area" id="video_area">
+        <div id="video_play"></div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
